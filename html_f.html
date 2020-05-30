@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Change theme</title>
+	<link rel="stylesheet" href="main_css.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+<header>
+	<div class="nav">
+		<a href="#home">Lab_7</a>
+  		<a href="#news">KN-213</a>
+  		<a href="#contact">Lushch Andrian</a>
+
+  		<div class="switch">
+    			<input type="checkbox" id="switch-1" class="switch-check">
+    			<label for="switch-1" class="switch-label">
+        			<span class="switch-slider switch-slider-on"></span>
+        			<span class="switch-slider switch-slider-off"></span>
+    			</label>
+  		</div>
+	</div>
+</header>
+    <div class="form-popup" id="myForm">
+	<form class="form-container">
+  		<fieldset class="account-info">
+    			<label>
+      				Customer name
+      				<input type="text" name="username">
+    			</label>
+    			<label>
+      				Password
+      				<input type="password" name="password">
+    			</label>
+  		</fieldset>
+  		<fieldset class="account-action">
+    			<input class="btn" type="submit" name="submit" value="Log in">
+    			<label>
+      				<input type="checkbox" name="remember"> Remember
+    			</label>
+  		</fieldset>
+	</form>
+    </div>
+<div class="navbar" id="botnav">
+  <a class="active" href="#" id="navbtn0" ><i class="fa fa-home"></i></a> 
+  <a href="#" id="navbtn"><i class="fa fa-search"></i></a> 
+  <a href="#" id="navbtn1"><i class="fa fa-envelope"></i></a> 
+  <a href="#" id="navbtn2"><i class="fa fa-globe"></i></a>
+  <a href="#" id="navbtn3"><i class="fa fa-trash"></i></a> 
+</div>
+  	<script src="js_f.js"></script>
+</body>
+
+</html>
